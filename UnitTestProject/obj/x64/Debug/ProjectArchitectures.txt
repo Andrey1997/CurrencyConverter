@@ -1,0 +1,2 @@
+C:\Users\gandr\OneDrive\Рабочий стол\TestProject\CurrencyConverter\CurrencyConverter.csproj;x64
+C:\Users\gandr\OneDrive\Рабочий стол\TestProject\UnitTestProject\UnitTestProject.csproj;x64

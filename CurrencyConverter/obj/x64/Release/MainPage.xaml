@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="CurrencyConverter.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CurrencyConverter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:ConnectionId='2' x:Name="firstTextBox" Text="dfg" Margin="150,93,924,857"                                  ></TextBox>
+        <TextBox x:ConnectionId='3' x:Name="secondTextBox" Text="dfg" Margin="652,93,422,857"                                  ></TextBox>
+
+        <TextBlock x:ConnectionId='4' x:Name="firstCurrency" Margin="150,164,927,682" Text="RU"></TextBlock>
+        <TextBlock x:ConnectionId='5' x:Name="secondCurrency" Margin="652,170,425,676" Text="USD"></TextBlock>
+        
+        <Button x:ConnectionId='6' x:Name="messageButton" Width="120" Height="40" Content="Кнопка" 
+                HorizontalAlignment="Center"                      />
+        <TextBlock x:ConnectionId='7' x:Name="text1" Text="demo" Margin="83,581,363,71"></TextBlock>
+    </Grid>
+</Page>
+
